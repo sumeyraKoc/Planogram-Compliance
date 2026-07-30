@@ -97,7 +97,7 @@ After the pipeline finishes:
 <!-- Add final visualization here -->
 
 <p align="center">
-  <img src="docs/final_result.png" width="700">
+  <img src="docs/final_result.jpg" width="700">
 </p>
 
 ---
