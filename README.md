@@ -51,13 +51,9 @@ After the pipeline finishes:
 
 **Example output:**
 
-<!-- Add shelf detection image here -->
 <p align="center">
-  <img src="docs/shelf and product detection docs/original.jpg" width="700">
-</p>
-
-<p align="center">
-  <img src="docs/shelf and product detection docs/shelf_detection.jpg" width="700">
+  <img src="docs/shelf and product detection docs/original.jpg" width="48%" />
+  <img src="docs/shelf and product detection docs/shelf_detection.jpg" width="48%" />
 </p>
 
 ---
@@ -67,8 +63,6 @@ After the pipeline finishes:
 `get_masked_images.py` creates a masked image for each detected shelf in every frame. These masked images allow the Vision Language Model to focus on a single shelf at a time.
 
 **Example:**
-
-<!-- Add demonstration GIF/video here -->
 
 <p align="center">
   <img src="docs/shelf and product detection docs/masked_shelves.gif" width="700">
@@ -94,7 +88,6 @@ After the pipeline finishes:
 
 **Example output:**
 
-<!-- Add final visualization here -->
 
 <p align="center">
   <img src="docs/final_result.jpg" width="700">
