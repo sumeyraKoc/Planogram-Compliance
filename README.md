@@ -65,7 +65,7 @@ After the pipeline finishes:
 **Example:**
 
 <p align="center">
-  <img src="docs/shelf and product detection docs/masked_shelves.gif" width="700">
+  <img src="docs/shelf and product detection docs/product_detection.jpg" width="700">
 </p>
 
 ---
@@ -73,6 +73,10 @@ After the pipeline finishes:
 #### 3. Product Detection
 
 `detect_products.py` performs product detection on each masked shelf image independently.
+
+<p align="center">
+  <img src="docs/shelf and product detection docs/masked_shelves.gif" width="700">
+</p>
 
 ---
 
