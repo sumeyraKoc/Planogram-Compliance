@@ -53,11 +53,11 @@ After the pipeline finishes:
 
 <!-- Add shelf detection image here -->
 <p align="center">
-  <img src="docs/original.jpg" width="700">
+  <img src="docs/shelf and product detection docs/original.jpg" width="700">
 </p>
 
 <p align="center">
-  <img src="docs/shelf_detection.jpg" width="700">
+  <img src="docs/shelf and product detection docs/shelf_detection.jpg" width="700">
 </p>
 
 ---
@@ -71,7 +71,7 @@ After the pipeline finishes:
 <!-- Add demonstration GIF/video here -->
 
 <p align="center">
-  <img src="docs/masked_shelves.gif" width="700">
+  <img src="docs/shelf and product detection docs/masked_shelves.gif" width="700">
 </p>
 
 ---
