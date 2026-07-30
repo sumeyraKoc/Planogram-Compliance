@@ -9,7 +9,7 @@ input_path = sys.argv[1]
 
 scripts = [
     ("detect_shelves.py", True),   # gets the input path as an argument
-    ("get_detected_shelves.py", False), # not critical just for merging the results of shelf detection
+    ("get_detected_shelves.py", False), # not critical just merging the results of shelf detection for visualization concerns
     ("get_masked_images.py", False),
     ("detect_products.py", False),
     ("merge_masked_detection_results.py", False),
