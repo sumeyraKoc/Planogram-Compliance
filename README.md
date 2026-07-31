@@ -40,7 +40,7 @@ parameter in `detect_shelves.py`. For example, setting
 SAMPLE_INTERVAL_SEC = 5
 ```
 
-analyzes one frame every 5 seconds of video.
+analyzes one frame every 5 seconds of video.(defult is 10)
 
 After the pipeline finishes:
 
