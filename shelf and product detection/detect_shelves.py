@@ -19,10 +19,15 @@ Output:
 
 Main Functionality:
     - Reads images and videos using OpenCV.
-    - Samples video frames at fixed time intervals.
+    - Samples video frames at a fixed interval defined by `SAMPLE_INTERVAL_SEC`.
     - Sends each frame to the Gemini model together with a structured prompt.
     - Receives structured JSON containing shelf region information.
     - Saves the analysis results for further processing.
+
+Configurable Parameter SAMPLE_INTERVAL_SEC:
+    Time interval (in seconds) between analyzed video frames.
+    Used only for video inputs. For example, a value of 10 means one
+    frame is analyzed every 10 seconds of video.
 
 Model:
     - Google Gemini 3.5 Flash Lite
