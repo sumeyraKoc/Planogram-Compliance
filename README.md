@@ -33,6 +33,15 @@ Run the pipeline with either an image or a video:
 python launcher.py <image_or_video_path>
 ```
 
+For video inputs, the sampling interval is controlled by the `SAMPLE_INTERVAL_SEC`
+parameter in `detect_shelves.py`. For example, setting
+
+```python
+SAMPLE_INTERVAL_SEC = 5
+```
+
+analyzes one frame every 5 seconds of video.
+
 After the pipeline finishes:
 
 - **Final visualizations** can be found in:
