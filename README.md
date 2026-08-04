@@ -206,7 +206,7 @@ After the pipeline finishes:
 **Example:**
 
 <p align="center">
-  <img src="docs/gap detection.png" width="700">
+  <img src="docs/gap_detection.png" width="700">
 </p>
 
 Both modules process the same masked shelf images simultaneously using separate API keys, reducing the overall execution time.
@@ -226,7 +226,7 @@ Both modules process the same masked shelf images simultaneously using separate 
 **Example output:**
 
 <p align="center">
-  <img src="docs/gap and product detection.png" width="700">
+  <img src="docs/final_result_gap_product_detection.png" width="700">
 </p>
 
 ---
